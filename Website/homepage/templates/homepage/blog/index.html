@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+   <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body class="body">
+    <header class="mainHeader">
+      <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnntfx4WLnKK8u5-USgIlZzWkRchjvtX5k7FomlwOx200dMch3" alt="" width="50px" height="50px" align="center"> -->
+      <nav>
+        <ul>
+          <li>
+            <a href="{% url 'home' %}">Home</a>
+          </li>
+          <li>
+            <a href="{% url 'homepage:aboutus' %}">About Us</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+    </header>
+{% block body_block %}
+    <div class="mainContent">
+      <div class="content">
+        <article class="topcontent">
+          <header>
+            <h2>
+              <a href="{% url 'homepage:first' %}" class="First post">Why Every Adventure Junkie Needs To Experience Thailand Adventures</a>
+            </h2>
+          </header>
+<footer>
+  <p class="post-info">Monday, April 9, 2018</p>
+</footer>
+<content>
+<p><h5>Thailand is enormous and diverse along with the large selection of travel as well as holiday options. Thailand has held a very special place in tourist’s heart. Resorts in coast <a href="{% url 'homepage:first' %}">Read More</a></h5></p>
+</content>
+        </article>
+
+        <article class="midcontent">
+          <header>
+            <h2>
+              <a href="{% url 'homepage:second' %}" class="Second post">Wildlife Safaris In South Africa – The Perfect Wilderness To Indulge In</a>
+            </h2>
+          </header>
+<footer>
+  <p class="post-info">Friday, April 9, 2018</p>
+</footer>
+<content>
+  <p>
+  <h5>If Wildlife Safari is on your mind, then you must plan an exciting family or romantic holiday to South Africa and head onto The Kruger National Park. Kruger is among the most exciting destinations in Africa, rivalled only by national reserves in Tanzania. The park is a historic and legendary part of South African history and the best place to enjoy Wildlife Safaris in South Africa. You get to enjoy panoramic views, thrilling wildlife experiences and the cast <a href="{% url 'homepage:second' %}">Read More</a>
+  </h5>
+  </p>
+</content>
+        </article>
+        <article class="midcontent2">
+          <header>
+            <h2>
+              <a href="{% url 'homepage:third' %}" class="Third post">Things To Do In Europe – 7 Once In A Lifetime Experiences</a>
+            </h2>
+          </header>
+        <footer>
+        <p class="post-info">Monday, April 9, 2018</p>
+        </footer>
+        <content>
+          <p>
+            <h5>Be it catching a glimpse of the startling Eiffel Tower, having a scrumptious brunch in London, shopping your heart out in Paris, or sipping a perfect cocktail on the lands of Vienna – there isn’t a thing you do in Europe that does not <a href="{% url 'homepage:third' %}">Read More</a>
+            </h5>
+          </p>
+        </content>
+        </article>
+        <article class="bottomcontent">
+          <header>
+            <h2>
+              <a href="{% url 'homepage:fourth' %}" class="Fourth post">Top 6 Restaurants For The Best Mauritius Food</a>
+            </h2>
+          </header>
+  <footer>
+  <p class="post-info">Saturday, March 17, 2018</p>
+  </footer>
+  <content>
+    <p><h5>Mauritius is a breath-taking Island nation with a beautiful landscape with panoramic views that seem like they are out of high definition movie. This quaint nation nestled near the African continent in a very popular year-round tourist destination. It has on offer an abundance of white sandy beaches, turquoise lagoons and bright,
+      <a href="{% url 'homepage:fourth' %}">Read More</a></h5>
+    </p>
+  </content>
+        </article>
+
+
+
+      </div>
+
+    </div>
+<aside class="top-sidebar">
+<article class="">
+  <h2>Subscribe</h2>
+  <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <button type="submit" class="btn btn-primary">Subscribe</button>
+</form>
+
+</article>
+</aside>
+
+<aside class="middle-sidebar">
+<article class="">
+  <footer>
+  <p class="post-info">SPOTLIGHTS</p>
+  </footer>
+ <p></p>
+<a href="{% url 'homepage:fifth' %}">
+<img src="https://blog.thomascook.in/wp-content/uploads/2012/09/20860542330_92df58d1ef_z.jpg" alt="" width="150px">
+Indulge Your Need For Speed In Singapore!
+</a>
+<p></p>
+<p><h7>Singapore has a lot to offer for all kinds of travelers. When you plan a trip to this world class destination you can expect your vacation to be full of surprises from beautiful architecture to great food and amazing theme parks!Apart from the obvious tourist attractions, Singapore has something special to offer for sports enthusiasts! If you have a need for speed, then you should
+<a href="{% url 'homepage:fifth' %}">Read More</a></h7></p>
+</article>
+</aside>
+
+<aside class="bottom-sidebar">
+  <article class="">
+   <p></p>
+  <a href="{% url 'homepage:sixth' %}">
+  <img src="https://blog.thomascook.in/wp-content/uploads/2018/03/Nanda_Devi-1-1024x683.jpg" alt="" width="150px">
+  7 Uniquely Amazing Places You Should Visit For Sure
+
+  </a>
+  <p></p>
+  <p><h7>One of the most romantic hill stations in India, Nainital is  <a href="{% url 'homepage:sixth' %}">Read More</a></h7></p>
+  </aside >
+  {% endblock %}
+<footer class="mainFooter">
+  <p>Copyright &copy;2013 <a href="#" title="tours">tours.cor</a>
+  </p>
+</footer>
+  </body>
+</html>

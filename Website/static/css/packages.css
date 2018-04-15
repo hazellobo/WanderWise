@@ -1,0 +1,84 @@
+#inttitle{
+   font-family: 'Dancing Script', cursive;
+    color: #4469ff;
+    text-align: center;
+}
+#intinfo{
+    font-family:'Arvo', serif;
+    color: #09b10b;
+    text-align: center;
+    font-size: medium;
+}
+#nttitle{
+   font-family: 'Dancing Script', cursive;
+    color: #4469ff;
+    text-align: center;
+}
+#ntinfo{
+    font-family:'Arvo', serif;
+    color: #09b10b;
+    text-align: center;
+    font-size: medium;
+}
+#all_pack{
+    alignment: center;
+    padding-left: 80px;
+
+}
+#login{
+    size: 50px;
+}
+
+#numend{
+    padding-left: 40px;
+    padding-top: 30px;
+   font-size: large;
+   color: aliceblue;
+}
+
+
+.grid-container {
+  display: grid;
+  /*grid-template-columns: auto auto auto;*/
+    border:solid #000000 3px;
+}
+#call{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.item1 {
+  background-color: #fffbf4;
+
+  padding: 5px;
+  font-size: large;
+text-align:left;
+    grid-row-start: 1;
+  grid-row-end: 2;
+}
+.item2 {
+  background-color: #fff8f8;
+
+  padding: 5px;
+  font-size: large;
+text-align:left;
+    grid-row-start: 2;
+  grid-row-end: 2;
+}
+.item3 {
+  background-color: #f8f7ff;
+padding-left: 10px;
+
+  font-size: large;
+  text-align:left;
+    grid-row-start: 2;
+  grid-row-end: 1;
+}
+.item4 {
+  background-color: #eaffeb;
+padding-left: 10px;
+
+  font-size: large;
+  text-align: left;
+    grid-row-start: 2;
+  grid-row-end: 2;
+}

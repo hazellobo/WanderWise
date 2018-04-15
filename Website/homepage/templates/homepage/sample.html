@@ -1,0 +1,17 @@
+{% extends 'homepage/home.html' %}
+{% block body_block %}
+{% if booked %}
+
+       <h1>THANKS YOU FOR BOOKING</h1>
+      {% else %}
+
+        <form enctype="multipart/form-data" method="post">
+          {% csrf_token %}
+            {{ form.as_p }}
+    <input type="submit" name="" value="SUBMIT">
+        </form>
+
+
+      {% endif %}
+
+{% endblock %}

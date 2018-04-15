@@ -1,0 +1,22 @@
+{% extends 'homepage/home.html' %}
+{% block body_block %}
+<h1>PROFILE</h1>
+{% csrf_token %}
+<p><h3>FIRST NAME : {{ user.first_name }}</h3></p>
+<p><h3>LAST NAME : {{ user.last_name }}</h3></p>
+<p><h3>EMAIL ID : {{ user.email }}</h3></p>
+<p><h3>PHONE NUMBER : {{ user.userprofileinfo.phone_number }}</h3></p>
+<p><h3>USERNAME : {{ user }}</h3></p>
+<!--<img src="{{ user.userprofileinfo.profile_pic }}"  class="img-responsive" width="240" height="200">-->
+
+
+       <h2>BOOKING DETAILS</h2>
+
+
+        <p><h3>DEPARTURE CITY : {{ user.calculateprice.departure_city }}</h3></p>
+
+
+
+
+
+{% endblock %}
