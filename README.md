@@ -35,10 +35,6 @@ To get started with WanderWise, simply sign up or log in to explore our diverse 
 
 At WanderWise, we are passionate about providing users with unforgettable travel experiences. Our team is dedicated to ensuring that every aspect of your journey, from booking to exploring, is seamless and enjoyable. Discover your next adventure with WanderWise!
 
-## Contributors
-
-- Hazel Lobo (https://github.com/yourusername)
-
 ## License
 
 Feel free to fork, modify, and distribute the code for your own projects. We appreciate any contributions to improve WanderWise and make it even better for our users. Happy travels!
